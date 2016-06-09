@@ -1,0 +1,42 @@
+LONGITUDINAL SKIN METAGENOMICS DATA REPOSITORY
+
+This repository contains data underlying analyses as described in:
+
+Temporal Stability of the Human Skin Microbiome 
+
+Julia Oh, Allyson L. Byrd, Morgan Park, Heidi H. Kong, and Julia A. Segre 
+Cell 165, 854–866 (2016)
+
+Contact: julia.oh@jax.org
+
+
+
+A brief description of the contents:
+
+Supplemental_data/
+samples.txt		Sequencing statistics/metadata for samples used in the study
+classifications.txt		Species-level taxonomic classifications and diversity estimates
+diversity.txt		Diversity estimates, species
+diversity_eukvir.txt	Number of species observed, eukaryotic viruses
+diversity_phage.txt	Number of species observed, phage
+
+thetas.species.txt		Theta calculations for all pairwise comparisons of samples, species
+thetas.genus.txt		Theta calculations for all pairwise comparisons of samples, genus
+thetas.family.txt		Theta calculations for all pairwise comparisons of samples, family
+thetas.phylum.txt		Theta calculations for all pairwise comparisons of samples, phylum
+thetas.kingdom.txt		Theta calculations for all pairwise comparisons of samples, kingdom
+thetas.phage.txt		Theta calculations for all pairwise comparisons of samples, phage
+thetas.eukvir.txt		Theta calculations for all pairwise comparisons of samples, eukaryotic viruses
+
+transient.txt		Species classified as transient or not within abundance groups
+randomforests.xlsx		Random forests output 
+
+pacnes_strains.txt		Relative abundance of Propionibacterium acnes strains
+pacnes_genes.txt		Presence/absence of Propionibacterium acnes gene clusters
+sepi_strains.txt		Relative abundance of Staphylococcus epidermidis strains
+sepi_genes.txt		Presence/absence of gene clusters of Staphylococcus epidermidis gene clusters 
+
+
+
+Databases_used/
+The reference genome databases used for this study, including bacteria, fungi, archaea, and viruses and instructions for download and making bowtie indices
